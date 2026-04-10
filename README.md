@@ -21,12 +21,14 @@ This project is structured as a **single repository** containing both frontend a
 **Storage:** In-memory array  
 
 ---
-## start backend
+### 1. Start Backend
+```bash
 cd backend
 npm install
 node server.js
 
-## start frontend
+### start frontend
+
 cd frontend
 npm install
 npm run dev

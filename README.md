@@ -28,7 +28,7 @@ npm install
 node server.js
 
 ### start frontend
-
+```bash
 cd frontend
 npm install
 npm run dev

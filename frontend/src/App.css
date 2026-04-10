@@ -1,0 +1,12 @@
+.container { max-width: 500px; margin: 50px auto; font-family: 'Segoe UI', sans-serif; padding: 20px; background: #f9f9f9; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+h1 { color: #333; text-align: center; }
+.form { display: flex; gap: 10px; margin-bottom: 20px; }
+input { flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+.add-btn { padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; }
+.task-list { list-style: none; padding: 0; }
+.task-item { display: flex; justify-content: space-between; align-items: center; background: white; padding: 12px; margin-bottom: 8px; border-radius: 4px; border-left: 5px solid #007bff; }
+.task-item.done { border-left-color: #6c757d; opacity: 0.7; }
+.task-text { cursor: pointer; flex: 1; }
+.task-text.completed { text-decoration: line-through; color: #888; }
+.del-btn { background: #dc3545; color: white; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; }
+.error { color: #dc3545; text-align: center; }

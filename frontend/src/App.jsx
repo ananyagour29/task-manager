@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/tasks';
+// const API_URL = 'http://localhost:5000/tasks';
+const API_URL='https://task-manager-three-henna.vercel.app/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]); 

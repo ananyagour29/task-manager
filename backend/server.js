@@ -4,7 +4,10 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-
+// Root route taaki deployment URL pe "Cannot GET /" na aaye
+app.get('/', (req, res) => {
+  res.status(200).send('Task Manager API is running smoothly!');
+});
 // In-memory storage for scope control 
 let tasks = [
   { id: "1", title: "Setup Project", completed: true, createdAt: new Date().toISOString() }

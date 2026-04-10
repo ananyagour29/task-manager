@@ -22,18 +22,23 @@ This project is structured as a **single repository** containing both frontend a
 
 ---
 ### 1. Start Backend
+
 ```bash
 cd backend
 npm install
 node server.js
+```
 
-### start frontend
+### 2. Start Frontend
+
 ```bash
 cd frontend
 npm install
 npm run dev
+```
 
--------
+---
+
 ## 🔗 API Endpoints
 
 | Method | Endpoint        | Description        |

@@ -9,10 +9,10 @@ app.get('/', (req, res) => {
   res.status(200).send('Task Manager API is running smoothly!');
 });
 // In-memory storage for scope control 
-let tasks = [
-  { id: "1", title: "Setup Project", completed: true, createdAt: new Date().toISOString() }
-];
-
+// let tasks = [
+//   { id: "1", title: "Setup Project", completed: true, createdAt: new Date().toISOString() }
+// ];
+let tasks = [];
 // GET /tasks - Return all tasks
 app.get('/tasks', (req, res) => {
   res.status(200).json(tasks);
